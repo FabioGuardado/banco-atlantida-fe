@@ -1,0 +1,19 @@
+.informacionGeneralContainer {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.informacionGeneralItem {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.informacionGeneralTitulo {
+  font-weight: 700;
+  padding-right: 2rem;
+}

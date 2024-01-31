@@ -1,0 +1,13 @@
+.navlink {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  transition: all ease-in-out 0.2s;
+}
+
+.navlink:hover {
+  color: #d7282f;
+  background-color: white;
+}
