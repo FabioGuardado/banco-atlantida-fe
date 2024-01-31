@@ -1,0 +1,9 @@
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.4rem;
+}
+
+.buttonsContainer > a > button {
+  text-transform: capitalize;
+}

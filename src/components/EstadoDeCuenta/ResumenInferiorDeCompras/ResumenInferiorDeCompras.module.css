@@ -1,0 +1,19 @@
+.resumenDeComprasContainer {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.resumenDeComprasItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+}
+
+.itemName {
+  font-weight: 700;
+}
