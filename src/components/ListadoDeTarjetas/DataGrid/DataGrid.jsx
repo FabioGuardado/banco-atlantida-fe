@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { DataGrid as MaterialDataGrid, GridNoRowsOverlay } from '@mui/x-data-grid';
 
-import useListaDeTarjetas from '../../../hooks/useListaDeTarjetas';
+import useListaDeTarjetas from '@/hooks/useListaDeTarjetas';
 
-import DataGridToolbar from '../DataGridToolbar/DataGridToolbar';
-import DataGridPagination from '../DataGridPagination/DataGridPagination';
+import DataGridToolbar from '@/components/ListadoDeTarjetas/DataGridToolbar/DataGridToolbar';
+import DataGridPagination from '@/components/UI/DataGridPagination/DataGridPagination';
 
-import getDataGridColumns from '../../../constants/columnasListaDeTarjetas';
+import getDataGridColumns from '@/constants/columnasListaDeTarjetas';
 
 import styles from './DataGrid.module.css';
 
