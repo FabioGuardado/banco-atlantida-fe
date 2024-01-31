@@ -1,4 +1,4 @@
-import EstadoDeCuenta from "../../../views/estadoDeCuenta/EstadoDeCuenta";
+import EstadoDeCuenta from "@/views/estadoDeCuenta/EstadoDeCuenta";
 
 const EstadoDeCuentaPage = () => {
   return <EstadoDeCuenta />;

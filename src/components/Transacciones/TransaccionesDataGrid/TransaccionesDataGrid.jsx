@@ -14,7 +14,7 @@ const TransaccionesDataGrid = ({ tarjetaDeCreditoId }) => {
   return (
     <div className={styles.transaccionesDataGridContainer}>
       <MaterialDataGrid
-      getRowId={(row) => row.numeroDeAutorizacion}
+      getRowId={(row) => row.numeroDeAutorizacion ?? row.id}
         rows={data ?? []}
         columns={getTransaccionesDataGridColumns()}
         hideFooter
