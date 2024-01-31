@@ -9,6 +9,7 @@ const ENDPOINTS = {
   transacciones: '/Transacciones',
   getTransaccionesByTarjetaDeCreditoId: tarjetaDeCreditoId =>
     `${ENDPOINTS.transacciones}?tarjetaDeCreditoId=${tarjetaDeCreditoId}`,
+  pagos: '/Pagos',
 };
 
 export default ENDPOINTS;
